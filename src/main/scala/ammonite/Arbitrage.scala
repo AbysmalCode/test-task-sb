@@ -36,8 +36,12 @@ object Arbitrage {
 
     def sparkItUp() = {
         val graphWithNoNegativeCycles = Graph(currencies, relationships)
-        val t = BellmanFord.getStuff(graphWithNoNegativeCycles, graphWithNoNegativeCycles.vertices.collect.toList(0)._1.toLong)
-        println( "{" + Range(1,t.length).map(x => prepareResultData(t)(x-1)._1 + "_" +  prepareResultData(t)(x)._1 + ": " + prepareResultData(t)(x)._2  ).toList.mkString(", ") + "}") 
+        var result:List[String] = List()
+        graphWithNoNegativeCycles.vertices.collect.toList.foreach(node => {
+            val t = BellmanFord.getStuff(graphWithNoNegativeCycles, node._1.toLong)
+            println( "{" + Range(1,t.length).map(x => prepareResultData(t)(x-1)._1 + "_" +  prepareResultData(t)(x)._1 + ": " + prepareResultData(t)(x)._2  ).toList.mkString(", ") + "}")
+            result = result :+  "{" + Range(1,t.length).map(x => prepareResultData(t)(x-1)._1 + "_" +  prepareResultData(t)(x)._1 + ": " + prepareResultData(t)(x)._2  ).toList.mkString(", ") + "}"
+        } )
         println(htmlSource)
     }
 }
