@@ -42,6 +42,7 @@ object Arbitrage {
             println( "{" + Range(1,t.length).map(x => prepareResultData(t)(x-1)._1 + "_" +  prepareResultData(t)(x)._1 + ": " + prepareResultData(t)(x)._2  ).toList.mkString(", ") + "}")
             result = result :+  "{" + Range(1,t.length).map(x => prepareResultData(t)(x-1)._1 + "_" +  prepareResultData(t)(x)._1 + ": " + prepareResultData(t)(x)._2  ).toList.mkString(", ") + "}"
         } )
+        println(result)
         println(htmlSource)
     }
 }
