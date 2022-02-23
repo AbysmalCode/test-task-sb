@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/martinsdarguzis/test/swissborg/src/main/scala/ammonite/AmmoniteMain.scala:3:17: imported `Arbitrage' is permanently hidden by definition of object Arbitrage in package ammonite[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport ammonite.Arbitrage[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

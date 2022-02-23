@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="swissborg-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20220223080149"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.12.7" status="release" pubdate="20180927113629" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1661" time="394" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scalap/ivy-2.12.7.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scalap/ivy-2.12.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.7/scalap-2.12.7.pom"/>
+				<caller organisation="org.scalameta" name="scalameta_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="4.4.5"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" status="successful" details="" size="512908" time="2241" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.12.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.7/scalap-2.12.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.deeplearning" name="sbt-ammonite-classpath">
+			<revision name="2.0.0+10-73cd7f41" status="release" pubdate="20210108235545" resolver="public" artresolver="public" homepage="https://github.com/ThoughtWorksInc/sbt-ammonite-classpath" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="6288" time="449" location="/Users/martinsdarguzis/.ivy2/cache/scala_2.12/sbt_1.0/com.thoughtworks.deeplearning/sbt-ammonite-classpath/ivy-2.0.0+10-73cd7f41.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/scala_2.12/sbt_1.0/com.thoughtworks.deeplearning/sbt-ammonite-classpath/ivy-2.0.0+10-73cd7f41.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/deeplearning/sbt-ammonite-classpath_2.12_1.0/2.0.0+10-73cd7f41/sbt-ammonite-classpath-2.0.0+10-73cd7f41.pom"/>
+				<caller organisation="default" name="swissborg-build" conf="test, compile, runtime" rev="latest.release" rev-constraint-default="latest.release" rev-constraint-dynamic="latest.release" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-ammonite-classpath" type="jar" ext="jar" status="successful" details="" size="14494" time="2098" location="/Users/martinsdarguzis/.ivy2/cache/scala_2.12/sbt_1.0/com.thoughtworks.deeplearning/sbt-ammonite-classpath/jars/sbt-ammonite-classpath-2.0.0+10-73cd7f41.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/deeplearning/sbt-ammonite-classpath_2.12_1.0/2.0.0+10-73cd7f41/sbt-ammonite-classpath-2.0.0+10-73cd7f41.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="scalameta_2.12">
+			<revision name="4.4.5" status="release" pubdate="20210108164647" resolver="public" artresolver="public" homepage="https://github.com/scalameta/scalameta" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/master/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="3213" time="331" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/scalameta_2.12/ivy-4.4.5.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/scalameta_2.12/ivy-4.4.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.4.5/scalameta_2.12-4.4.5.pom"/>
+				<caller organisation="com.thoughtworks.deeplearning" name="sbt-ammonite-classpath" conf="default, compile, runtime, master" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="2.0.0+10-73cd7f41"/>
+				<artifacts>
+					<artifact name="scalameta_2.12" type="jar" ext="jar" status="successful" details="" size="760773" time="2415" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/scalameta_2.12/jars/scalameta_2.12-4.4.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.4.5/scalameta_2.12-4.4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="parsers_2.12">
+			<revision name="4.4.5" status="release" pubdate="20210108164644" resolver="public" artresolver="public" homepage="https://github.com/scalameta/scalameta" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/master/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="3471" time="325" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/parsers_2.12/ivy-4.4.5.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/parsers_2.12/ivy-4.4.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.4.5/parsers_2.12-4.4.5.pom"/>
+				<caller organisation="org.scalameta" name="scalameta_2.12" conf="compile, runtime" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="4.4.5"/>
+				<artifacts>
+					<artifact name="parsers_2.12" type="jar" ext="jar" status="successful" details="" size="1275822" time="2258" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/parsers_2.12/jars/parsers_2.12-4.4.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.4.5/parsers_2.12-4.4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="trees_2.12">
+			<revision name="4.4.5" status="release" pubdate="20210108164644" resolver="public" artresolver="public" homepage="https://github.com/scalameta/scalameta" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/master/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="3807" time="359" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/trees_2.12/ivy-4.4.5.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/trees_2.12/ivy-4.4.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.4.5/trees_2.12-4.4.5.pom"/>
+				<caller organisation="org.scalameta" name="parsers_2.12" conf="compile, runtime" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="4.4.5"/>
+				<artifacts>
+					<artifact name="trees_2.12" type="jar" ext="jar" status="successful" details="" size="5524094" time="2643" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/trees_2.12/jars/trees_2.12-4.4.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.4.5/trees_2.12-4.4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="fastparse_2.12">
+			<revision name="1.0.1" status="release" pubdate="20190409155744" resolver="public" artresolver="public" homepage="https://github.com/lihaoyi/scala-parser" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2362" time="206" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/fastparse_2.12/ivy-1.0.1.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/fastparse_2.12/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/fastparse_2.12-1.0.1.pom"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="4.4.5"/>
+				<artifacts>
+					<artifact name="fastparse_2.12" type="jar" ext="jar" status="successful" details="" size="337946" time="1160" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/fastparse_2.12/jars/fastparse_2.12-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/fastparse_2.12-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="fastparse-utils_2.12">
+			<revision name="1.0.1" status="release" pubdate="20190409160844" resolver="public" artresolver="public" homepage="https://github.com/lihaoyi/scala-parser" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2197" time="359" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/fastparse-utils_2.12/ivy-1.0.1.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/fastparse-utils_2.12/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/fastparse-utils_2.12-1.0.1.pom"/>
+				<caller organisation="org.scalameta" name="fastparse_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="fastparse-utils_2.12" type="jar" ext="jar" status="successful" details="" size="71980" time="293" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/fastparse-utils_2.12/jars/fastparse-utils_2.12-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/fastparse-utils_2.12-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12">
+			<revision name="0.10.9" status="release" pubdate="20201115001707" resolver="public" artresolver="public" homepage="https://github.com/scalapb/ScalaPB" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3513" time="335" location="/Users/martinsdarguzis/.ivy2/cache/com.thesamet.scalapb/scalapb-runtime_2.12/ivy-0.10.9.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.thesamet.scalapb/scalapb-runtime_2.12/ivy-0.10.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.10.9/scalapb-runtime_2.12-0.10.9.pom"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="0.10.9" rev-constraint-default="0.10.9" rev-constraint-dynamic="0.10.9" callerrev="4.4.5"/>
+				<artifacts>
+					<artifact name="scalapb-runtime_2.12" type="jar" ext="jar" status="successful" details="" size="2205514" time="1492" location="/Users/martinsdarguzis/.ivy2/cache/com.thesamet.scalapb/scalapb-runtime_2.12/jars/scalapb-runtime_2.12-0.10.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.10.9/scalapb-runtime_2.12-0.10.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fastparse_2.12">
+			<revision name="2.3.0" status="release" pubdate="20200419052944" resolver="public" artresolver="public" homepage="https://github.com/lihaoyi/fastparse" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="1654" time="232" location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/fastparse_2.12/ivy-2.3.0.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/fastparse_2.12/ivy-2.3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.3.0/fastparse_2.12-2.3.0.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.10.9"/>
+				<artifacts>
+					<artifact name="fastparse_2.12" type="jar" ext="jar" status="successful" details="" size="315936" time="394" location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/fastparse_2.12/jars/fastparse_2.12-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.3.0/fastparse_2.12-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="geny_2.12">
+			<revision name="0.6.0" status="release" pubdate="20200419025656" resolver="public" artresolver="public" homepage="https://github.com/lihaoyi/geny" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="1059" time="219" location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/geny_2.12/ivy-0.6.0.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/geny_2.12/ivy-0.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.0/geny_2.12-0.6.0.pom"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.12" conf="compile, runtime" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="2.3.0"/>
+				<artifacts>
+					<artifact name="geny_2.12" type="jar" ext="jar" status="successful" details="" size="80471" time="293" location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/geny_2.12/jars/geny_2.12-0.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.0/geny_2.12-0.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.11.4" status="release" pubdate="20200214232202" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="5564" time="228" location="/Users/martinsdarguzis/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.11.4.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.11.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="3.11.4" rev-constraint-default="3.11.4" rev-constraint-dynamic="3.11.4" callerrev="0.10.9"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="successful" details="" size="1660960" time="527" location="/Users/martinsdarguzis/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-3.11.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="lenses_2.12">
+			<revision name="0.10.9" status="release" pubdate="20201115001708" resolver="public" artresolver="public" homepage="https://github.com/scalapb/ScalaPB" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2089" time="316" location="/Users/martinsdarguzis/.ivy2/cache/com.thesamet.scalapb/lenses_2.12/ivy-0.10.9.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.thesamet.scalapb/lenses_2.12/ivy-0.10.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.10.9/lenses_2.12-0.10.9.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="0.10.9" rev-constraint-default="0.10.9" rev-constraint-dynamic="0.10.9" callerrev="0.10.9"/>
+				<artifacts>
+					<artifact name="lenses_2.12" type="jar" ext="jar" status="successful" details="" size="35792" time="438" location="/Users/martinsdarguzis/.ivy2/cache/com.thesamet.scalapb/lenses_2.12/jars/lenses_2.12-0.10.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.10.9/lenses_2.12-0.10.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-collection-compat_2.12">
+			<revision name="2.1.6" status="release" pubdate="20200420150515" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1990" time="225" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/ivy-2.1.6.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/ivy-2.1.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.6/scala-collection-compat_2.12-2.1.6.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="0.10.9"/>
+				<caller organisation="com.thesamet.scalapb" name="lenses_2.12" conf="compile, runtime" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="0.10.9"/>
+				<artifacts>
+					<artifact name="scala-collection-compat_2.12" type="jar" ext="jar" status="successful" details="" size="207079" time="323" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/jars/scala-collection-compat_2.12-2.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.6/scala-collection-compat_2.12-2.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="common_2.12">
+			<revision name="4.4.5" status="release" pubdate="20210108164641" resolver="public" artresolver="public" homepage="https://github.com/scalameta/scalameta" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/master/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="3272" time="329" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/common_2.12/ivy-4.4.5.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/common_2.12/ivy-4.4.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.4.5/common_2.12-4.4.5.pom"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="4.4.5"/>
+				<artifacts>
+					<artifact name="common_2.12" type="jar" ext="jar" status="successful" details="" size="842575" time="2175" location="/Users/martinsdarguzis/.ivy2/cache/org.scalameta/common_2.12/jars/common_2.12-4.4.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.4.5/common_2.12-4.4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.12">
+			<revision name="0.2.1" status="release" pubdate="20200206210445" resolver="public" artresolver="public" homepage="https://github.com/lihaoyi/sourcecode" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="1530" time="227" location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/sourcecode_2.12/ivy-0.2.1.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/sourcecode_2.12/ivy-0.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.1/sourcecode_2.12-0.2.1.pom"/>
+				<caller organisation="org.scalameta" name="fastparse_2.12" conf="compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="1.0.1"/>
+				<caller organisation="org.scalameta" name="fastparse-utils_2.12" conf="compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="1.0.1"/>
+				<caller organisation="org.scalameta" name="common_2.12" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="4.4.5"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.12" conf="compile, runtime" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="2.3.0"/>
+				<artifacts>
+					<artifact name="sourcecode_2.12" type="jar" ext="jar" status="successful" details="" size="117293" time="439" location="/Users/martinsdarguzis/.ivy2/cache/com.lihaoyi/sourcecode_2.12/jars/sourcecode_2.12-0.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.1/sourcecode_2.12-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.1.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.2.1"/>
+				<caller organisation="org.scalameta" name="fastparse_2.12" conf="compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="1.0.1"/>
+				<caller organisation="org.scalameta" name="fastparse-utils_2.12" conf="compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="1.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.dsl" name="keywords-each_2.12">
+			<revision name="1.5.3" status="release" pubdate="20200426043106" resolver="public" artresolver="public" homepage="https://github.com/ThoughtWorksInc/Dsl.scala" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="successful" details="" size="5015" time="318" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/keywords-each_2.12/ivy-1.5.3.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/keywords-each_2.12/ivy-1.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/dsl/keywords-each_2.12/1.5.3/keywords-each_2.12-1.5.3.pom"/>
+				<caller organisation="com.thoughtworks.deeplearning" name="sbt-ammonite-classpath" conf="default, compile, runtime, master" rev="1.5.3" rev-constraint-default="1.5.3" rev-constraint-dynamic="1.5.3" callerrev="2.0.0+10-73cd7f41"/>
+				<artifacts>
+					<artifact name="keywords-each_2.12" type="jar" ext="jar" status="successful" details="" size="12584" time="1045" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/keywords-each_2.12/jars/keywords-each_2.12-1.5.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/dsl/keywords-each_2.12/1.5.3/keywords-each_2.12-1.5.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.dsl" name="keywords-shift_2.12">
+			<revision name="1.5.3" status="release" pubdate="20200426043104" resolver="public" artresolver="public" homepage="https://github.com/ThoughtWorksInc/Dsl.scala" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="successful" details="" size="4432" time="330" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/keywords-shift_2.12/ivy-1.5.3.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/keywords-shift_2.12/ivy-1.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/dsl/keywords-shift_2.12/1.5.3/keywords-shift_2.12-1.5.3.pom"/>
+				<caller organisation="com.thoughtworks.dsl" name="keywords-each_2.12" conf="compile, runtime" rev="1.5.3" rev-constraint-default="1.5.3" rev-constraint-dynamic="1.5.3" callerrev="1.5.3"/>
+				<artifacts>
+					<artifact name="keywords-shift_2.12" type="jar" ext="jar" status="successful" details="" size="20562" time="1010" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/keywords-shift_2.12/jars/keywords-shift_2.12-1.5.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/dsl/keywords-shift_2.12/1.5.3/keywords-shift_2.12-1.5.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.dsl" name="dsl_2.12">
+			<revision name="1.5.3" status="release" pubdate="20200426043105" resolver="public" artresolver="public" homepage="https://github.com/ThoughtWorksInc/Dsl.scala" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="successful" details="" size="4409" time="357" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/dsl_2.12/ivy-1.5.3.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/dsl_2.12/ivy-1.5.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/dsl/dsl_2.12/1.5.3/dsl_2.12-1.5.3.pom"/>
+				<caller organisation="com.thoughtworks.dsl" name="keywords-shift_2.12" conf="compile, runtime" rev="1.5.3" rev-constraint-default="1.5.3" rev-constraint-dynamic="1.5.3" callerrev="1.5.3"/>
+				<caller organisation="com.thoughtworks.dsl" name="keywords-each_2.12" conf="compile, runtime" rev="1.5.3" rev-constraint-default="1.5.3" rev-constraint-dynamic="1.5.3" callerrev="1.5.3"/>
+				<artifacts>
+					<artifact name="dsl_2.12" type="jar" ext="jar" status="successful" details="" size="49287" time="1118" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.dsl/dsl_2.12/jars/dsl_2.12-1.5.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/dsl/dsl_2.12/1.5.3/dsl_2.12-1.5.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.enableIf" name="enableif_2.12">
+			<revision name="1.1.7" status="release" pubdate="20190610210814" resolver="public" artresolver="public" homepage="https://github.com/ThoughtWorksInc/enableIf.scala" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="successful" details="" size="3294" time="318" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.enableIf/enableif_2.12/ivy-1.1.7.xml" searched="true" original-local-location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.enableIf/enableif_2.12/ivy-1.1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/enableIf/enableif_2.12/1.1.7/enableif_2.12-1.1.7.pom"/>
+				<caller organisation="com.thoughtworks.dsl" name="keywords-each_2.12" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.5.3"/>
+				<caller organisation="com.thoughtworks.dsl" name="dsl_2.12" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.5.3"/>
+				<artifacts>
+					<artifact name="enableif_2.12" type="jar" ext="jar" status="successful" details="" size="24064" time="798" location="/Users/martinsdarguzis/.ivy2/cache/com.thoughtworks.enableIf/enableif_2.12/jars/enableif_2.12-1.1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/enableIf/enableif_2.12/1.1.7/enableif_2.12-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20220223080143" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="swissborg-build" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.7" status="release" pubdate="20180927113727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3089" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7.pom"/>
+				<caller organisation="org.scala-lang" name="scalap" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="10478558" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101162105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.12.7"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="547860" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.7" status="release" pubdate="20180927113203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
+				<caller organisation="com.thoughtworks.enableIf" name="enableif_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3616372" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927113542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="com.thoughtworks.dsl" name="keywords-shift_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.5.3"/>
+				<caller organisation="org.scalameta" name="scalameta_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="4.4.5"/>
+				<caller organisation="com.thoughtworks.dsl" name="keywords-each_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.5.3"/>
+				<caller organisation="org.scalameta" name="common_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="4.4.5"/>
+				<caller organisation="com.thoughtworks.dsl" name="dsl_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.5.3"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
+				<caller organisation="org.scalameta" name="parsers_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="4.4.5"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.6"/>
+				<caller organisation="org.scalameta" name="fastparse_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.1"/>
+				<caller organisation="org.scalameta" name="fastparse-utils_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.1"/>
+				<caller organisation="com.thoughtworks.enableIf" name="enableif_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.7"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.10.9"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="4.4.5"/>
+				<caller organisation="org.scala-lang.modules" name="scala-collection-compat_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.1.6"/>
+				<caller organisation="com.thesamet.scalapb" name="lenses_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.10.9"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/Users/martinsdarguzis/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

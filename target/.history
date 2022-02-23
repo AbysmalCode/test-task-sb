@@ -1,0 +1,13 @@
+test:console
+  private def vertexId(string: String) = string.hashCode.toLong
+test:console
+import org.apache.spark.graphx.{Edge, Graph, VertexId}
+exit
+test:console
+exit
+test:console
+2L
+test:console
+exit
+test:console
+exit

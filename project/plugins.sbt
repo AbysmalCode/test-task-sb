@@ -1,0 +1,1 @@
+addSbtPlugin("com.thoughtworks.deeplearning" % "sbt-ammonite-classpath" % "latest.release")
